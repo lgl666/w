@@ -68,6 +68,26 @@
     right: 60px;
     top: 70px;
 }
+.slideshow1{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+}
+.slideshow2{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+}
+.slideshow3{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+}
+.slideshow4{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+}
 
 .login1{
     height: 500px;
@@ -77,7 +97,7 @@
 }
 
 .register{
-    width: 5em;
+    width: 90px;
     display: flex;
     font-size: 3em;
     color: rgb(219, 22, 22);
@@ -88,7 +108,7 @@
 
 
 .login{
-    width: 5em;
+    width: 90px;
     display: flex;
     font-size: 3em;
     color: rgb(219, 22, 22);

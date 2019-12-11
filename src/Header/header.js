@@ -59,18 +59,18 @@ export default class Header extends React.Component {
 					</Menu>
 				</div>
 				<div className={HeaderCss.slideshow}>
-					<Carousel autoplay className={HeaderCss.slideshow0}>
+					<Carousel autoplay>
 						<div className={HeaderCss.slideshow1}>
-							<img src="/img/1.jpg" alt="1"></img>
+							<h3><img src="img/1.jpg" alt="1" /></h3>
 						</div>
 						<div className={HeaderCss.slideshow2}>
-							<img src="/img/2.jpg" alt="2"></img>
+							<h3><img src="img/2.jpg" alt="2" /></h3>
 						</div>
 						<div className={HeaderCss.slideshow3}>
-							<img src="/img/3.jpg" alt="3"></img>
+							<h3><img src="img/3.jpg" alt="3" /></h3>
 						</div>
 						<div className={HeaderCss.slideshow4}>
-							<img src="/img/4.jpg" alt="4"></img>
+							<h3><img src="img/4.jpg" alt="4" /></h3>
 						</div>
 					</Carousel>
 				</div>
