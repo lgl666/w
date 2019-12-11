@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import { Menu, Icon } from 'antd';
-import { Carousel } from 'antd';
+import Image from './Image/img'
 
 const { SubMenu } = Menu;
 var HeaderCss = require('./header.css');
@@ -10,6 +10,9 @@ export default class Header extends React.Component {
 	render() {
 		return (
 			<div className={HeaderCss.header}>
+
+				<Image className={HeaderCss.img} />
+
 				<div className={HeaderCss.menu}>
 					<Menu
 						onClick={this.handleClick}
@@ -57,22 +60,6 @@ export default class Header extends React.Component {
 							<Menu.Item key="11">调节亮度</Menu.Item>
 						</SubMenu>
 					</Menu>
-				</div>
-				<div className={HeaderCss.slideshow}>
-					<Carousel autoplay>
-						<div className={HeaderCss.slideshow1}>
-							<h3><img src="img/1.jpg" alt="1" /></h3>
-						</div>
-						<div className={HeaderCss.slideshow2}>
-							<h3><img src="img/2.jpg" alt="2" /></h3>
-						</div>
-						<div className={HeaderCss.slideshow3}>
-							<h3><img src="img/3.jpg" alt="3" /></h3>
-						</div>
-						<div className={HeaderCss.slideshow4}>
-							<h3><img src="img/4.jpg" alt="4" /></h3>
-						</div>
-					</Carousel>
 				</div>
 				<div className={HeaderCss.title1}>
 					<Link to="/homepage" className={HeaderCss.title}>校园二手网</Link>

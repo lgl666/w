@@ -7,6 +7,9 @@
     align-content: center;
     margin:auto;
 }
+.img{
+    
+}
 .title1{
     height: 50px;
     width: 820px;
@@ -60,33 +63,6 @@
 }
 .menu1{
     background-color: rgb(228, 196, 115);
-}
-.slideshow{
-    width: 1000px;
-    height: 400px;
-    position: relative;
-    right: 60px;
-    top: 70px;
-}
-.slideshow1{
-    width: 1000px;
-    height: 400px;
-    position: relative;
-}
-.slideshow2{
-    width: 1000px;
-    height: 400px;
-    position: relative;
-}
-.slideshow3{
-    width: 1000px;
-    height: 400px;
-    position: relative;
-}
-.slideshow4{
-    width: 1000px;
-    height: 400px;
-    position: relative;
 }
 
 .login1{

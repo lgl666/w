@@ -1,0 +1,31 @@
+.slideshow{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    right: 60px;
+    top: 70px;
+}
+.slideshow1{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    background-image: url(1.jpg);
+}
+.slideshow2{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    background-image: url(2.jpg);
+}
+.slideshow3{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    background-image: url(3.jpg);
+}
+.slideshow4{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    background-image: url(4.jpg);
+}
