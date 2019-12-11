@@ -1,7 +1,6 @@
 import React from 'react';
 import ProductPage from '../../Product/product';
 
-var BuyPageCss = require("./buy.css")
 export default class BuyPage extends React.Component {
 
 	getProductList() {
@@ -27,10 +26,12 @@ export default class BuyPage extends React.Component {
 	render() {
 		let dateList = this.getProductList();
 		return (
+		
 			dateList.map((item, i) => (
 				<ProductPage product={item}></ProductPage>
+				
 			))
-
+			
 		)
 	}
 }

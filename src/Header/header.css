@@ -1,9 +1,98 @@
 .header{
-    height: 4em;
-    background-color: aqua;
+    height: 500px;
+    width: 100%;
+    background-color: rgb(108, 176, 185);
     display: flex;
     justify-content: space-around;
     align-content: center;
-    font-size: 1.5em;
-    color: blue;
+    margin:auto;
+}
+.title1{
+    height: 50px;
+    width: 820px;
+    position: absolute;
+    top: 30px;
+}
+.title{
+    display: flex;
+    font-size: 3em;
+    color: rgb(219, 22, 22);
+    position: relative;
+    float: left;
+}
+.home{
+    display: flex;
+    font-size: 1em;
+    color: rgb(219, 22, 22);
+    position: relative;
+    top: 40px;
+    left: 210px;
+}
+.user{
+    display: flex;
+    font-size: 1em;
+    color: rgb(219, 22, 22);
+    position: relative;
+    top: 19px;
+    left: 290px;
+}
+.massage{
+    display: flex;
+    font-size: 1em;
+    color: rgb(219, 22, 22);
+    position: relative;
+    top: -2px;
+    left: 400px;
+}
+.contact{
+    display: flex;
+    font-size: 1em;
+    color: rgb(219, 22, 22);
+    position: relative;
+    top: -23px;
+    left: 720px;
+}
+.menu{
+    width: 210px;
+    height: 500px;
+    position: absolute;
+    left: 0px;
+}
+.menu1{
+    background-color: rgb(228, 196, 115);
+}
+.slideshow{
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    right: 60px;
+    top: 70px;
+}
+
+.login1{
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    right: 0px;
+}
+
+.register{
+    width: 5em;
+    display: flex;
+    font-size: 3em;
+    color: rgb(219, 22, 22);
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+
+.login{
+    width: 5em;
+    display: flex;
+    font-size: 3em;
+    color: rgb(219, 22, 22);
+    position: relative;
+    top: 300px;
+    left: 150px;
 }
