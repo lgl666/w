@@ -11,6 +11,8 @@ export default class Header extends React.Component {
 		return (
 			<div className={HeaderCss.header}>
 
+				<Image className={HeaderCss.img} />
+
 				<div className={HeaderCss.menu}>
 					<Menu
 						onClick={this.handleClick}
