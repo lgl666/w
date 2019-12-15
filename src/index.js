@@ -16,6 +16,7 @@ class IndexPage extends React.Component {
                 <div>这是一个广告，不参与路由管理</div>
                 <BrowserRouter>
                     <Switch>
+                    <Route path="/" exact component={HomePage}></Route>
                     <Route path="/register" exact component={RegisterPage}></Route>
                         <Route path="/homepage" exact component={HomePage}></Route>
                         <Route path="/login" exact component={LoginPage}></Route>
