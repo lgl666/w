@@ -11,7 +11,6 @@ export default class Header extends React.Component {
 		return (
 			<div className={HeaderCss.header}>
 
-				<Image className={HeaderCss.img} />
 
 				<div className={HeaderCss.menu}>
 					<Menu
@@ -63,14 +62,17 @@ export default class Header extends React.Component {
 				</div>
 				<div className={HeaderCss.title1}>
 					<Link to="/homepage" className={HeaderCss.title}>校园二手网</Link>
+
+					<Image className={HeaderCss.img} />
+				</div>
+				<div className={HeaderCss.login1}>
+
+
 					<Link to="/homepage" className={HeaderCss.home}>首页</Link>
 					<Link to="/register" className={HeaderCss.user}>用户注册</Link>
 					<Link to="/massage" className={HeaderCss.massage}>公告消息</Link>
 					<Link to="/contact" className={HeaderCss.contact}>联系我们</Link>
 
-
-				</div>
-				<div className={HeaderCss.login1}>
 					<Link to="/register" className={HeaderCss.register}>注册</Link>
 					<Link to="/login" className={HeaderCss.login}>登陆</Link>
 				</div>

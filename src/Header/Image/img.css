@@ -1,47 +1,34 @@
-
-#frame{position:absolute;width:300px;height:200px;overflow:hidden;border-radius:5px}
-#dis{position:absolute;left:-50px;top:-10px;opacity:.5}
-#dis li{display:inline-block;width:200px;height:20px;margin:0 50px;
-    float:left;text-align:center;color:#fff;border-radius:10px;background:#000}
-#photos img{float:left;width:300px;height:200px}
-#photos {  position: absolute;z-index:9;  width: calc(300px * 4);/*---修改图片数量的话需要修改下面的动画参数*/  }
-.play{ animation: ma 20s ease-out infinite alternate;}
-     @keyframes ma {
-         0%,25% {        margin-left: 0px;       }
-         30%,50% {       margin-left: -300px;    }
-         55%,75% {       margin-left: -600px;    }
-         80%,100% {       margin-left: -900px;    }
- 
-     }
-
-
 .slideshow{
     width: 1000px;
     height: 400px;
     position: relative;
-    top: 70px;
+    top: 60px;
 }
 .slideshow1{
     width: 1000px;
     height: 400px;
     position: relative;
+    top: -40px;
     background-image: url(1.jpg);
 }
 .slideshow2{
     width: 1000px;
     height: 400px;
     position: relative;
+    top: -40px;
     background-image: url(2.jpg);
 }
 .slideshow3{
     width: 1000px;
     height: 400px;
     position: relative;
+    top: -40px;
     background-image: url(3.jpg);
 }
 .slideshow4{
     width: 1000px;
     height: 400px;
     position: relative;
+    top: -40px;
     background-image: url(4.jpg);
 }

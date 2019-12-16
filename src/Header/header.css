@@ -2,94 +2,95 @@
     height: 500px;
     width: 100%;
     background-color: rgb(108, 176, 185);
-    display: flex;
     justify-content: space-around;
-    align-content: center;
     margin:auto;
-}
-.img{
-    position: relative;
-    top: 40px;
-}
-.title1{
-    height: 50px;
-    width: 820px;
-    position: absolute;
-    top: 30px;
-}
-.title{
-    display: flex;
-    font-size: 3em;
-    color: rgb(219, 22, 22);
-    position: relative;
-    float: left;
-}
-.home{
-    display: flex;
-    font-size: 1em;
-    color: rgb(219, 22, 22);
-    position: relative;
-    top: 40px;
-    left: 210px;
-}
-.user{
-    display: flex;
-    font-size: 1em;
-    color: rgb(219, 22, 22);
-    position: relative;
-    top: 19px;
-    left: 290px;
-}
-.massage{
-    display: flex;
-    font-size: 1em;
-    color: rgb(219, 22, 22);
-    position: relative;
-    top: -2px;
-    left: 400px;
-}
-.contact{
-    display: flex;
-    font-size: 1em;
-    color: rgb(219, 22, 22);
-    position: relative;
-    top: -23px;
-    left: 720px;
+    overflow: hidden;
 }
 .menu{
+    display: flex;
     width: 210px;
     height: 500px;
-    position: absolute;
-    left: 0px;
+    float: left;
+    margin-right: 150px;
 }
 .menu1{
     background-color: rgb(228, 196, 115);
 }
-
+.title1{
+    display: flex;
+    width: 1100px;
+    height: 500px;
+    float: left;
+}
+.title{
+    width: 50px;
+    height: 300px;
+    display: flex;
+    font-size: 3em;
+    color: rgb(219, 22, 22);
+    float: left;
+    margin-right: 20px;
+}
 .login1{
     height: 500px;
-    width: 400px;
-    position: absolute;
-    right: 0px;
+    width: 438px;
+    float: left;
+}
+.home{
+    width: 14px;
+    height: 40px;
+    display: flex;
+    font-size: 1em;
+    color: #db1616;
+    float: left;
+    margin-right: 110px;
+}
+.user{
+    width: 14px;
+    height: 80px;
+    display: flex;
+    font-size: 1em;
+    color: rgb(219, 22, 22);
+    float: left;
+    margin-right: 110px;
+}
+.massage{
+    width: 14px;
+    height: 80px;
+    display: flex;
+    font-size: 1em;
+    color: rgb(219, 22, 22);
+    float: left;
+    margin-right: 110px;
+}
+.contact{
+    width: 14px;
+    height: 80px;
+    display: flex;
+    font-size: 1em;
+    color: rgb(219, 22, 22);
+    float: left;
 }
 
 .register{
+    height: 50px;
     width: 90px;
     display: flex;
     font-size: 3em;
     color: rgb(219, 22, 22);
-    position: relative;
-    top: 100px;
-    left: 150px;
+    position: absolute;
+    top: 350px;
+    right: 150px;
 }
 
 
 .login{
+    height: 50px;
     width: 90px;
     display: flex;
     font-size: 3em;
     color: rgb(219, 22, 22);
-    position: relative;
-    top: 300px;
-    left: 150px;
+    position: absolute;
+    top: 200px;
+    right: 150px;
 }
