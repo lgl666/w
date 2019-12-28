@@ -1,0 +1,64 @@
+.login{
+    width: 1900px;
+    height: 400px;
+}
+
+.back{
+    background-color: aquamarine;
+    width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    margin-top: -150px;
+    border-radius: 30px;
+}
+.title{
+    position: relative;
+    top: 15%;
+    left: 6%;
+    font-size: 30px;
+}
+.username{
+    position: relative;
+    top: 18%;
+    left: 26%;
+    font-size: 25px;
+}
+.password{
+    position: relative;
+    top: 16%;
+    left: 29%;
+    font-size: 25px;
+}
+.userinput{
+    position: relative;
+    top: 6%;
+    left: 38%;
+   
+}
+.passinput{
+    position: relative;
+    top: 3%;
+    left: 38%;
+   
+}
+.button{
+    width: 140px;
+    height: 50px;
+    border: white;
+    background-color: tomato;
+    border-radius: 10px;
+   
+}
+.input{
+    font-size: 18px;
+    border: white;
+}
+.buttonbox{
+    position: relative;
+    top: 15%;
+    left: 40%;
+}
+
+
