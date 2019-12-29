@@ -1,6 +1,8 @@
 import React from 'react';
 import ProductPage from '../../Product/product';
+import {Button} from 'antd'
 
+var BuyCss = require('./buy.css')
 export default class BuyPage extends React.Component {
 
 	getProductList() {
@@ -9,16 +11,6 @@ export default class BuyPage extends React.Component {
 			name: "电饭煲",
 			price: "21",
 			describe: "格力电饭煲"
-		}, {
-			id: 2,
-			name: "电脑",
-			price: "55",
-			describe: "华硕"
-		}, {
-			id: 3,
-			name: "智能机",
-			price: "123",
-			describe: "小度"
 		},
 		]
 		return dateList;
@@ -26,12 +18,11 @@ export default class BuyPage extends React.Component {
 	render() {
 		let dateList = this.getProductList();
 		return (
-		
 			dateList.map((item, i) => (
-				<ProductPage product={item}></ProductPage>
-				
+				<ProductPage product={item}></ProductPage>	
 			))
-			
+		
+
 		)
 	}
 }
