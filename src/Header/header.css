@@ -7,7 +7,7 @@
 }
 .menu{
     display: flex;
-    width: 210px;
+    width: 10%;
     height: 500px;
     float: left;
     margin-right: 150px;
@@ -17,12 +17,12 @@
 }
 .title1{
     display: flex;
-    width: 1100px;
+    width: 57%;
     height: 500px;
     float: left;
 }
 .title{
-    width: 50px;
+    width: 5%;
     height: 300px;
     display: flex;
     font-size: 3em;
@@ -30,40 +30,43 @@
     float: left;
     margin-right: 20px;
 }
+.img{
+    width: 56%;
+}
 .login1{
     height: 500px;
-    width: 438px;
+    width: 25%;
     float: left;
 }
 .home{
-    width: 14px;
+    width: 3.2%;
     height: 40px;
     display: flex;
     font-size: 1em;
     color: #db1616;
     float: left;
-    margin-right: 110px;
+    margin-right: 22%;
 }
 .user{
-    width: 14px;
+    width: 3.2%;
     height: 80px;
     display: flex;
     font-size: 1em;
     color: rgb(219, 22, 22);
     float: left;
-    margin-right: 110px;
+    margin-right: 22%;
 }
 .massage{
-    width: 14px;
+    width: 3.2%;
     height: 80px;
     display: flex;
     font-size: 1em;
     color: rgb(219, 22, 22);
     float: left;
-    margin-right: 110px;
+    margin-right: 22%;
 }
 .contact{
-    width: 14px;
+    width: 3.2%;
     height: 80px;
     display: flex;
     font-size: 1em;
@@ -73,23 +76,23 @@
 
 .register{
     height: 50px;
-    width: 90px;
+    width: 5%;
     display: flex;
     font-size: 3em;
     color: rgb(219, 22, 22);
     position: absolute;
-    top: 350px;
-    right: 150px;
+    top: 30%;
+    right: 10%;
 }
 
 
 .login{
     height: 50px;
-    width: 90px;
+    width: 5%;
     display: flex;
     font-size: 3em;
     color: rgb(219, 22, 22);
     position: absolute;
-    top: 200px;
-    right: 150px;
+    top: 15%;
+    right: 10%;
 }
