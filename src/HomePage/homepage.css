@@ -8,4 +8,10 @@
     width: 50px;
     height: 20px;
     display: flex;
+<<<<<<< HEAD
+=======
+    justify-content: space-around;
+    align-content: center;
+    
+>>>>>>> 3a0b6cbea2daefcbeb6310bcec39ac79e9c55d02
 }
