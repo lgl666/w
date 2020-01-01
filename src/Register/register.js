@@ -3,9 +3,6 @@ import {Input,Button,message} from 'antd';
 import {Link} from 'react-router-dom';
 import Axios from 'axios';
 var RegisterCss = require('./register.css');
-
-
-
 export default class RegisterPage extends React.Component{
 	constructor(props){
 		super(props);

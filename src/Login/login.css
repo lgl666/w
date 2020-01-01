@@ -41,13 +41,13 @@
     position: relative;
     top: 6%;
     left: 38%;
-   
+   width: 250px;
 }
 .passinput{
     position: relative;
     top: 3%;
     left: 38%;
-   
+    width: 250px;
 }
 .button{
     width: 140px;

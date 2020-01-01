@@ -46,7 +46,11 @@ export default class HomePage extends React.Component {
                     </BrowserRouter>
                 </div>
 
-                <Footer />
+                <Footer />        
+                <div>
+                    
+                    <Link to="/gerenpage">123165</Link>
+                </div>    
             </div>
         )
     }
