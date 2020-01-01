@@ -4,7 +4,7 @@
 }
 
 .back{
-    background-color: aquamarine;
+    background-color: rgb(51, 66, 197);
     width: 800px;
     height: 450px;
     margin: 0 auto;
@@ -14,18 +14,24 @@
     border-radius: 30px;
 }
 .title{
-    position: relative;
-    top: 15%;
-    left: 6%;
+    color:white;
+    
     font-size: 30px;
 }
+.titleplace{
+    position: relative;
+    top: 10%;
+    left: 6%;
+}
 .username{
+    color:white;
     position: relative;
     top: 18%;
     left: 26%;
     font-size: 25px;
 }
 .password{
+    color:white;
     position: relative;
     top: 16%;
     left: 29%;
@@ -47,9 +53,10 @@
     width: 140px;
     height: 50px;
     border: white;
-    background-color: tomato;
+    background-color:rgb(18, 26, 141);
     border-radius: 10px;
-   
+    color: white;
+   font-size: 20px;
 }
 .input{
     font-size: 18px;
@@ -58,7 +65,11 @@
 .buttonbox{
     position: relative;
     top: 15%;
-    left: 40%;
+    left: 30%;
 }
-
+.registerbox{
+    position: relative;
+    top: 4%;
+    left: 50%;
+}
 

@@ -1,0 +1,93 @@
+.header{
+    width: 1900px;
+    height: 400px;
+}
+.back{
+    background-color: rgb(51, 66, 197);
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    margin-top: -150px;
+    border-radius: 30px;
+}
+.title{
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+    position: relative;
+    top: 5%;
+    left: 25%;
+}
+.username{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 12%;
+    left: 15%;
+    
+}
+.password{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 15%;
+    left: 15%;
+}
+.emil{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 20%;
+    left: 15%;
+}
+.tel{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: 18%;
+    left: 15%;
+}
+.usernamebox{
+        position: relative;
+        top: 5%;
+        left: 40%;
+}
+.passwordbox{
+    position: relative;
+    top: 8%;
+    left: 40%;
+}
+.emilbox{
+    position: relative;
+    top: 13%;
+    left: 40%;
+}
+.telbox{
+    position: relative;
+    top: 11%;
+    left: 40%;
+}
+.button{
+    width: 140px;
+    height: 50px;
+    border: white;
+    background-color:rgb(18, 26, 141);
+    border-radius: 10px;
+    color: white;
+   font-size: 20px;
+}
+.surebutton{
+    position: relative;
+    top: 22%;
+    left: 10%;
+}
+.cancelbutton{
+    position: relative;
+    top: 14%;
+    left: 54%;
+}
+.usernameinput{
+    width: 200px;
+}
