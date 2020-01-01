@@ -3,10 +3,9 @@ import { Link } from 'react-router-dom'
 import { Modal, Button, Menu, Icon } from 'antd';
 import Image from './Image/img'
 
+
 const { SubMenu } = Menu;
 var HeaderCss = require('./header.css');
-
-
 
 function warning1() {
 	Modal.warning({
@@ -39,6 +38,7 @@ function warning() {
 		  ),
 	});
 }
+
 
 
 export default class Header extends React.Component {
@@ -108,8 +108,9 @@ export default class Header extends React.Component {
 					<div className={HeaderCss.contact}> <Button type="primary" onClick={warning}>联系我们</Button></div>
 				</div>
 
-				<Link to="/register" className={HeaderCss.register}>注册</Link>
+				<a href="/administrator" className={HeaderCss.administrator}>管理员登陆</a>
 				<Link to="/login" className={HeaderCss.login}>登陆</Link>
+				<Link to="/register" className={HeaderCss.register}>注册</Link>
 			</div>
 		)
 	}
