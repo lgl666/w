@@ -80,8 +80,6 @@
     top: 30%;
     right: 10%;
 }
-
-
 .login{
     height: 50px;
     width: 5%;
@@ -89,6 +87,16 @@
     font-size: 3em;
     color: rgb(219, 22, 22);
     position: absolute;
-    top: 15%;
+    top: 20%;
     right: 10%;
+}
+.administrator{
+    height: 50px;
+    width: 12%;
+    display: flex;
+    font-size: 3em;
+    color: rgb(219, 22, 22);
+    position: absolute;
+    top: 10%;
+    right: 6%;
 }

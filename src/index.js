@@ -6,6 +6,7 @@ import HomePage from './HomePage/homepage';
 import { BrowserRouter, Route, Switch, Redirect, Link } from 'react-router-dom'
 import LoginPage from './Login/login';
 import RegisterPage from './Register/register';
+import AdministratorPage from './Header/Administrator/administrator'
 //Redirect   网址不存在  就跳转到你指定的界面
 //exact   从左到右网址一模一样才跳转
 
@@ -16,10 +17,11 @@ class IndexPage extends React.Component {
                 <div>这是一个广告，不参与路由管理</div>
                 <BrowserRouter>
                     <Switch>
-                    <Route path="/" exact component={HomePage}></Route>
-                    <Route path="/register" exact component={RegisterPage}></Route>
+                        <Route path="/" exact component={HomePage}></Route>
+                        <Route path="/register" exact component={RegisterPage}></Route>
                         <Route path="/homepage" exact component={HomePage}></Route>
                         <Route path="/login" exact component={LoginPage}></Route>
+                        <Route path="/administrator" exact component={AdministratorPage}></Route>
                         <Redirect to="/"></Redirect>
                     </Switch>
                 </BrowserRouter>

@@ -53,21 +53,25 @@
         position: relative;
         top: 5%;
         left: 40%;
+        width: 220px;
 }
 .passwordbox{
     position: relative;
     top: 8%;
     left: 40%;
+    width: 220px;
 }
 .emilbox{
     position: relative;
     top: 13%;
     left: 40%;
+    width: 220px;
 }
 .telbox{
     position: relative;
     top: 11%;
     left: 40%;
+    width: 220px;
 }
 .button{
     width: 140px;
