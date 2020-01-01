@@ -20,7 +20,9 @@ export default class AdministratorPage extends React.Component {
 				<input className={AdministratorCss.input}></input>
 				</div>
 				<div className={AdministratorCss.buttonbox}>
+				<Link to="/background">
 				<button className={AdministratorCss.button}>登陆</button>
+				]</Link>
 				</div>
 				</div>
                 
