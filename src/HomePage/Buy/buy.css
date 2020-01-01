@@ -1,0 +1,27 @@
+.buy{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: tomato;
+}
+.slideshow{
+    width: 200px;
+    height: 300px;
+}
+.slideshow1{
+    width: 200px;
+    height: 300px;
+    background-image: url(1.png);
+}
+.slideshow2{
+    width: 200px;
+    height: 300px;
+    background-image: url(2.png);
+}
+.slideshow3{
+    width: 200px;
+    height: 300px;
+    background-image: url(3.png);
+}

@@ -1,0 +1,29 @@
+.sale{
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+.sale1{
+    width: 25%;
+    height: 80px;
+    border: 0.2px black;
+    float: left;
+}
+.sale2{
+    width: 25%;
+    height: 80px;
+    border: 0.2px black;
+    float: left;
+}
+.sale3{
+    width: 25%;
+    height: 80px;
+    border: 0.2px black;
+    float: left;
+}
+.sale4{
+    width: 25%;
+    height: 80px;
+    border: 0.2px black;
+    float: left;
+}

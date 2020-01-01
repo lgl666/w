@@ -15,23 +15,34 @@ export default class HomePage extends React.Component {
             <div>
                 <Header />
 
-                <Divider dashed />
                 <div className={HomePageCss.bady}>
                     <BrowserRouter basename="homepage">
-                        <Link to='/people' className={HomePageCss.people}>最近在使用校园跳蚤的人</Link>
-                        <Divider dashed />
-
-                        <Link to="/buy" className={HomePageCss.buy}>我要买</Link>
 
                         <Divider dashed />
 
-                        <Link to="/sale" className={HomePageCss.sale}>我要卖</Link>
+                        <div className={HomePageCss.people}> 最近在使用校园跳蚤的人 </div>
 
                         <Divider dashed />
 
-                        <Route path="/buy" component={BuyPage}></Route>
-                        <Route path="/sale" component={SalePage}></Route>
-                        <Route path='/people' component={PeoplePage}></Route>
+                        <PeoplePage />
+
+                        <Divider dashed />
+                        <div className={HomePageCss.user}> 用户给予的评价 </div>
+
+                        <Divider dashed />
+
+                        <SalePage />
+
+                        <Divider dashed />
+
+                        <div className={HomePageCss.buy}> 闲置的二手货物 </div>
+
+                        <Divider dashed />
+
+                        <BuyPage />
+
+                        <Divider dashed />
+
                     </BrowserRouter>
                 </div>
 

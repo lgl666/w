@@ -1,0 +1,38 @@
+.people{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    color: tomato;
+}
+.slideshow{
+    width: 250px;
+    height: 300px;
+}
+.slideshow1{
+    width: 250px;
+    height: 300px;
+    background-image: url(0.png);
+}
+.slideshow2{
+    width: 250px;
+    height: 300px;
+    background-image: url(1.png);
+}
+.slideshow3{
+    width: 250px;
+    height: 300px;
+    background-image: url(2.png);
+}
+.slideshow4{
+    width: 250px;
+    height: 300px;
+    background-image: url(4.png);
+}
+
+.slideshow5{
+    width: 250px;
+    height: 300px;
+    background-image: url(3.png);
+}

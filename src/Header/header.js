@@ -1,10 +1,45 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import { Menu, Icon } from 'antd';
+import { Modal, Button, Menu, Icon } from 'antd';
 import Image from './Image/img'
 
 const { SubMenu } = Menu;
 var HeaderCss = require('./header.css');
+
+
+
+function warning1() {
+	Modal.warning({
+		title: '公告',
+		content: (
+			<div>
+			  <p>跳蚤官方公众号:********</p>
+			  <p>买卖消息提醒、交易问题反馈</p>
+			</div>
+		  ),
+	});
+}
+
+function success() {
+	Modal.success({
+		title: '更新',
+		content: '最近跳蚤市场的相关更新',
+	});
+}
+
+function warning() {
+	Modal.warning({
+		title: '联系方式',
+		content: (
+			<div>
+			  <p>跳蚤官方公众号:********</p>
+			  <p>跳蚤官方微信：*******</p>
+			  <p>跳蚤官方QQ：********</p>
+			</div>
+		  ),
+	});
+}
+
 
 export default class Header extends React.Component {
 	render() {
@@ -65,17 +100,16 @@ export default class Header extends React.Component {
 
 					<Image className={HeaderCss.img} />
 				</div>
+
 				<div className={HeaderCss.login1}>
-
-
-					<Link to="/homepage" className={HeaderCss.home}>首页</Link>
-					<Link to="/register" className={HeaderCss.user}>用户注册</Link>
-					<Link to="/massage" className={HeaderCss.massage}>公告消息</Link>
-					<Link to="/contact" className={HeaderCss.contact}>联系我们</Link>
-
-					<Link to="/register" className={HeaderCss.register}>注册</Link>
-					<Link to="/login" className={HeaderCss.login}>登陆</Link>
+					<div className={HeaderCss.home}><Link to="/homepage"><Button type="primary">首页</Button></Link></div>
+					<div className={HeaderCss.user}> <Button type="primary" onClick={warning1}>公众号</Button></div>
+					<div className={HeaderCss.massage}> <Button type="primary" onClick={success}>公告消息</Button></div>
+					<div className={HeaderCss.contact}> <Button type="primary" onClick={warning}>联系我们</Button></div>
 				</div>
+
+				<Link to="/register" className={HeaderCss.register}>注册</Link>
+				<Link to="/login" className={HeaderCss.login}>登陆</Link>
 			</div>
 		)
 	}

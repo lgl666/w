@@ -10,7 +10,7 @@
     width: 10%;
     height: 500px;
     float: left;
-    margin-right: 150px;
+    margin-right: 7%;
 }
 .menu1{
     background-color: rgb(228, 196, 115);
@@ -39,35 +39,31 @@
     float: left;
 }
 .home{
-    width: 3.2%;
-    height: 40px;
+    width: 20%;
     display: flex;
     font-size: 1em;
     color: #db1616;
     float: left;
-    margin-right: 22%;
+    margin-right: 2%;
 }
 .user{
-    width: 3.2%;
-    height: 80px;
+    width: 20%;
     display: flex;
     font-size: 1em;
     color: rgb(219, 22, 22);
     float: left;
-    margin-right: 22%;
+    margin-right: 5%;
 }
 .massage{
-    width: 3.2%;
-    height: 80px;
+    width: 20%;
     display: flex;
     font-size: 1em;
     color: rgb(219, 22, 22);
     float: left;
-    margin-right: 22%;
+    margin-right: 8%;
 }
 .contact{
-    width: 3.2%;
-    height: 80px;
+    width: 20%;
     display: flex;
     font-size: 1em;
     color: rgb(219, 22, 22);
