@@ -112,8 +112,8 @@ export default class GERENpage extends React.Component{
               </span>
             }
           >
-            <Menu.Item key="5"><Button>修改日期</Button></Menu.Item>
-            <Menu.Item key="6"><Button>放弃出售</Button></Menu.Item>
+            <Menu.Item key="5"><Button>修改商品信息</Button></Menu.Item>
+            <Menu.Item key="6"><Button>删除商品</Button></Menu.Item>
             <Menu.Item key="7"><Button>评论</Button></Menu.Item>
             <Menu.Item key="8"><Button>增加新商品</Button></Menu.Item>
           </SubMenu>
@@ -126,9 +126,9 @@ export default class GERENpage extends React.Component{
               </span>
             }
           >
-            <Menu.Item key="9"><Button>删除</Button></Menu.Item>
-            <Menu.Item key="10"><Button>评价</Button></Menu.Item>
-            
+            <Menu.Item key="9"><Button>取消订单</Button></Menu.Item>
+            <Menu.Item key="10"><Button>查看订单</Button></Menu.Item>
+            <Menu.Item key="10"><Button>已售商品评论</Button></Menu.Item>
           </SubMenu>
         </Menu>
       </Sider>

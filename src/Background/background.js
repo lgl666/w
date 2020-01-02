@@ -90,10 +90,11 @@ export default class Background extends React.Component {
 					  </span>
 					}
 				  >
-					<Menu.Item key="5"><Button>修改日期</Button></Menu.Item>
-					<Menu.Item key="6"><Button>放弃出售</Button></Menu.Item>
+					<Menu.Item key="5"><Button>修改商品种类</Button></Menu.Item>
+					<Menu.Item key="6"><Button>删除商品</Button></Menu.Item>
 					<Menu.Item key="7"><Button>评论</Button></Menu.Item>
 					<Menu.Item key="8"><Button>增加新商品</Button></Menu.Item>
+					<Menu.Item key="11"><Button>查询商品</Button></Menu.Item>
 				  </SubMenu>
 				  <SubMenu
 					key="sub3"
@@ -104,9 +105,23 @@ export default class Background extends React.Component {
 					  </span>
 					}
 				  >
-					<Menu.Item key="9"><Button>删除</Button></Menu.Item>
-					<Menu.Item key="10"><Button>评价</Button></Menu.Item>
+					<Menu.Item key="9"><Button>取消订单</Button></Menu.Item>
+            <Menu.Item key="10"><Button>查看订单</Button></Menu.Item>
+            <Menu.Item key="11"><Button>已售商品评论</Button></Menu.Item>
+				  </SubMenu>
+				  <SubMenu
+					key="sub4"
+					title={
+					  <span>
+						<Icon type="user" />
+						公告
+					  </span>
+					}
+				  >
+					<Menu.Item key="12"><Button>发布公告</Button></Menu.Item>
+					<Menu.Item key="13"><Button>删除公告</Button></Menu.Item>
 					
+				   
 				  </SubMenu>
 				</Menu>
 			  </Sider>
